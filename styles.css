@@ -46,13 +46,13 @@ html, body {
   }
   
   .game .img span {
-    background-image: url(/assets/images/js.jpg);
+    background-image: url(/assets/images/js.png);
   }
   .todo .img span {
-    background-image: url(/assets/images/js.jpg);
+    background-image: url(/assets/images/js.png);
   }
   .weather .img span {
-    background-image: url(/assets/images/js.jpg);
+    background-image: url(/assets/images/js.png);
   }
   .act-track .img span {
     background-image: url(/assets/images/rails.jpg);
