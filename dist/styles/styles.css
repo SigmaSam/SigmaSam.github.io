@@ -1,5 +1,4 @@
 @tailwind base;
-
 @tailwind components;
 
 
@@ -17,8 +16,7 @@ html, body {
 }
 
 .card {
-    border-radius: 50px;
-    background: url(/assets/images/background.jpg);
+    border-radius: 20px;
     position: relative;
     overflow: hidden;
     width: 49%;
@@ -44,21 +42,21 @@ html, body {
     height: 100%;
     transition: 0.5s;
   }
-  
+
   .game .img span {
-    background-image: url(/assets/images/starcollector.png);
+    background-image: url(../assets/images/starcollector.png);
   }
   .todo .img span {
-    background-image: url(/assets/images/trackerJS.png);
+    background-image: url(../assets/images/trackerJS.png);
   }
   .weather .img span {
-    background-image: url(/assets/images/weather.png);
+    background-image: url(../assets/images/weather.png);
   }
   .act-track .img span {
-    background-image: url(/assets/images/actTrack.png);
+    background-image: url(../assets/images/actTrack.png);
   }
   .mark-down .img span {
-    background-image: url(/assets/images/console.png);
+    background-image: url(../assets/images/console.png);
   }
 
   .card .img span:nth-child(1) {
@@ -100,5 +98,9 @@ html, body {
     transform: translateY(100%);
   }
 
-  
+  @media screen and (max-width: 407px) {
+    .card {
+      width: 100%;
+    }
+  }
   @tailwind utilities;

@@ -1,0 +1,41 @@
+{
+  "name": "sigmasam.github.io",
+  "version": "1.0.0",
+  "description": "a personal portfolio",
+  "main": "./src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SigmaSam/SigmaSam.github.io.git"
+  },
+  "author": "Samuel Almao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SigmaSam/SigmaSam.github.io/issues"
+  },
+  "homepage": "https://github.com/SigmaSam/SigmaSam.github.io#readme",
+  "keywords": [],
+  "devDependencies": {
+    "babel-eslint": "10.1.x",
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0"
+  }
+}
