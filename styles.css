@@ -46,22 +46,19 @@ html, body {
   }
   
   .game .img span {
-    background-image: url(/assets/images/js.png);
+    background-image: url(/assets/images/starcollector.png);
   }
   .todo .img span {
-    background-image: url(/assets/images/js.png);
+    background-image: url(/assets/images/trackerJS.png);
   }
   .weather .img span {
-    background-image: url(/assets/images/js.png);
+    background-image: url(/assets/images/weather.png);
   }
   .act-track .img span {
-    background-image: url(/assets/images/rails.jpg);
+    background-image: url(/assets/images/actTrack.png);
   }
   .mark-down .img span {
-    background-image: url(/assets/images/ruby.png);
-  }
-  .tnw-clone .img span {
-    background-image: url(/assets/images/html.jpg);
+    background-image: url(/assets/images/console.png);
   }
 
   .card .img span:nth-child(1) {

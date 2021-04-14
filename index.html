@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Almao</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="/assets/images/icon.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/assets/images/icon.png" sizes="32x32">
     <script src="https://kit.fontawesome.com/68c9428c25.js" crossorigin="anonymous">
-    </script>
+    </script>    
+    <link href="./tailwind.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" >
+
 </head>
 <body class=" lg:overflow-hidden w-100 h-screen m-0">
 <div class="grid lg:grid-cols-3 lg:grid-flow-row ">
     <section class="col-span-1 bg-gray-900 text-white flex flex-col h-100 space-y-5 py-1 ">
-        <img src="https://avatars.githubusercontent.com/u/57440278?s=400&u=ec3cf6cb557d62bfeaa104a8e48c641f8bccf0fa&v=4" alt="" class="rounded-full bg-white mt-1 p-1  w-1/3 self-center">
+        <img src="assets/images/ppphoto.png" alt="" class="rounded-full bg-white mt-3 p-1  w-1/3 self-center">
         <h1 class="text-4xl font-bold text-center my-2">Samuel Almao</h1>
-        <p class="text-justify mx-2 px-5">Software developer in development, Data analysis enthusiast, Healthcare IT, Looking for new opportunities. </p>
+        <p class="text-justify mx-2 px-5">Software developer, data analysis enthusiast, experienced in healthcare IT. Looking for new opportunities. </p>
         <code class="bg-black flex flex-col mx-5">
             <div class="flex bg-white h-5"></div>
             <p class="ml-1">Skills { </p>
@@ -27,26 +27,24 @@
             <p class="ml-5"> JavaScript { Node.Js, WebPack } </p>
             <p class="ml-1">}</p>
         </code>
-        <div class="flex space-x-2 justify-center p-2 object-bottom  ">
-            <a href="https://github.com/SigmaSam" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
+        <h3 class="text-4xl font-bold text-center my-2">Contact Me</h3>
+        <div class="flex space-x-2 justify-center p-2 object-bottom"> 
+            <a href="mailto:samuelalmaoherrera@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
             </a>
-            <a href="mailto" href="mailto:samuelalmaoherrera@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/samuel-almao-9a4120195/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
-            </a><a href="https://twitter.com/DungeonSam/" target="_blank" alt="twitter"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
-            </a>
+            <a href="https://www.linkedin.com/in/samuel-almao-9a4120195/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/DungeonSam/" target="_blank" alt="twitter"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
+            <a href="https://angel.co/u/samuel-almao" target="_blank"><i class="fab fa-angellist fa-3x mt-1 p-1  px-2 rounded text-gray-900 bg-white" aria-hidden="true"></i></a>
+            <a href="https://github.com/SigmaSam" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>      
         </div>
     </section>
-    <section class="overflow-auto m-1 mb-2 h-screen project flex flex-wrap lg:flex lg:flex-row lg:flex-wrap lg:col-span-2 md:flex md:flex-row md:flex-wrap">
-        
-        <div class="game card mark-down h-1/2 m-0.5" >
+    <section class="overflow-auto m-1 mb-2 h-screen project flex flex-wrap lg:flex lg:flex-row lg:flex-wrap lg:col-span-2 md:flex md:flex-row md:flex-wrap"> 
+        <div class="card game  h-1/2 m-0.5" >
             <div class="img"> <span></span><span></span><span></span><span></span></div>
             <div class="content">
-                <h2>Star Collector</h2>
+                <h2 class="font-bold">Star Collector</h2>
                 <h4>
-                    A small guy sent to orbit with the hard labor of picking up start fragments, get the most of them without falling back to Earth!.
+                    A small guy is sent to orbit with the difficult job of picking up star fragments. Collect them without falling back to Earth! A game built with Phaser 3 and JavaScript.
                     
-                    A game build with Phaser 3 and JavaScript
                 </h4>
                 <div class="flex space-x-1">
                     <a href="https://starcollector.netlify.app" target="_blank" alt="Live Link"><i class="fa fa-check-square-o fa-4x" aria-hidden="true"></i>
@@ -55,10 +53,10 @@
                 </div>
               </div>
         </div>   
-        <div class="weather card mark-down h-1/2 m-0.5" >
+        <div class="weather card h-1/2 m-0.5" >
             <div class="img"> <span></span><span></span><span></span><span></span></div>
             <div class="content">
-                <h2>Weather App</h2>
+                <h2 class="font-bold">Weather App</h2>
                 <h4>
                     A small app to check the climate in any city with a small wiki reference of the place.    
                 </h4>
@@ -69,12 +67,12 @@
                 </div>
               </div>
         </div>   
-        <div class="todo card mark-down h-1/2 m-0.5" >
+        <div class="todo card h-1/2 m-0.5" >
             <div class="img"> <span></span><span></span><span></span><span></span></div>
             <div class="content">
-                <h2>To Do List</h2>
+                <h2 class="font-bold">To Do List</h2>
                 <h4>
-                    An app that allows the user to create list of activities, and edit, delete and most importantly keep track on time of them.     
+                    An app that allows the user to create a list of activities, then edit, delete, and most importantly keep track of the time spent on each of them.    
                 </h4>
                 <div class="flex space-x-1">
                     <a href="https://raw.githack.com/SigmaSam/To-Do-List/main/dist/index.html" target="_blank" alt="Live Link"><i class="fa fa-check-square-o fa-4x" aria-hidden="true"></i>
@@ -86,7 +84,7 @@
         <div class="card act-track h-1/2 m-0.5 sm:w-100" >
             <div class="img"> <span></span><span></span><span></span><span></span></div>
             <div class="content">
-                <h2>Activiy Tracker</h2>
+                <h2 class="font-bold">Activity Tracker</h2>
                 <h4>This project is a simple app built using basic Ruby on Rails functionalities in this app you can create an account, and when logged in, you will be able to build groups and routines and keep track of them.</h4>
                 <div class="flex space-x-1">
                     <a href="https://agile-depths-52362.herokuapp.com/" target="_blank" alt="Live Link"><i class="fa fa-check-square-o fa-4x" aria-hidden="true"></i>
@@ -98,33 +96,17 @@
         <div class="card mark-down h-1/2 m-0.5" >
             <div class="img"> <span></span><span></span><span></span><span></span></div>
             <div class="content">
-                <h2>MarkDown Linter</h2>
+                <h2 class="font-bold">MarkDown Linter</h2>
                 <h4>
-                    This is a linter build with Ruby to find errors in documents intended to be written with Markdown format it is design to check for inconsistencies in the opening and closing symbols used in the MarkDown syntax.    
+                    This is a linter build with Ruby used to find errors in documents written with Markdown. It is designed to check for inconsistencies in the opening and closing symbols used in Markdown syntax.    
                 </h4>
                 <div class="flex space-x-1">
                     <a href="https://github.com/SigmaSam/MarkDown-Linter" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
                 </div>
               </div>
-        </div>
-        <div class="tnw-clone card mark-down h-1/2 m-0.5" >
-            <div class="img"> <span></span><span></span><span></span><span></span></div>
-            <div class="content">
-                <h2>TheNextWeb Clone</h2>
-                <h4>
-                    This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.    
-                </h4>
-                <div class="flex space-x-1">
-                    <a href="https://rawcdn.githack.com/SigmaSam/Building-with-Responsive-Design-Samuel-Juan/f49fa110b5115a7ca02139dd883880e176a1ab00/index.html" target="_blank" alt="Live Link"><i class="fa fa-check-square-o fa-4x" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://github.com/SigmaSam/Building-with-Responsive-Design" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-        </div>       
-        
+        </div> 
     </section>
     
 </div>
-<script src="app.js"></script>
 </body>
 </html>
